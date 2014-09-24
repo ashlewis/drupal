@@ -1,0 +1,17 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+// Helps set up a vertical rhythm.
+@import "compass";
+@import "compass/typography/vertical_rhythm";
+
+@include establish-baseline;
+@import "compass/typography/text/replacement";
+@import "compass/utilities/sprites";
+@import "rgbapng";
+
+
+@import "../../../../../profiles/s8080/libraries/bootstrap/assets/stylesheets/bootstrap/bootstrap";
